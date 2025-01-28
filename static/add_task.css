@@ -1,0 +1,95 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light cool blue background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Title styles */
+h1 {
+    color: #1e90ff; /* Light blue color for title */
+    margin-bottom: 20px;
+}
+
+/* Centering the buttons and form elements */
+button, form {
+    margin: 10px;
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+    color: #0077cc; /* Blue color for links */
+    margin-left: 10px;
+}
+
+a:hover {
+    color: #005fa3; /* Darker blue on hover */
+}
+
+/* Style for the submit button */
+button {
+    background-color: #4caf50; /* Green color for the button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100px;
+}
+
+button:hover {
+    color: black;
+    background-color: cornsilk; /* Cornsilk color on hover */
+}
+
+/* Style for the select fields */
+select {
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-width: 1px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+select:hover {
+    background-color: cornsilk; /* Cornsilk color on hover */
+}
+
+/* Style for the input and textarea fields */
+input[type="text"], textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+/* Style for the back link */
+a {
+    text-decoration: none;
+    color: #0077cc; /* Blue color for the link */
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #005fa3; /* Darker blue on hover */
+}

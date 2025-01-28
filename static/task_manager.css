@@ -1,0 +1,101 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light cool blue background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Title styles */
+h1 {
+    color: #1e90ff; /* Light blue color for title */
+    margin-bottom: 20px;
+}
+
+/* Centering the buttons and form elements */
+button, form {
+    margin: 10px;
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+    color: #0077cc; /* Blue color for links */
+    margin-left: 10px;
+}
+
+a:hover {
+    color: #005fa3; /* Darker blue on hover */
+}
+
+/* Style for the buttons */
+#hi {
+    background-color: #4caf50; /* Green color for the button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button a {
+    color: white;
+}
+
+button:hover {
+    background-color: cornsilk; /* Darker green on hover */
+}
+select:hover {
+    background-color: cornsilk; /* Darker green on hover */
+}
+/* Form style */
+form {
+    display: flex;
+    align-items: center;
+}
+
+/* Center the content of the page */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Add space between select and button */
+select {
+    background-color: white;
+    padding: 10px 20px;
+    /* margin-right: 10px; */
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-width: 1px;
+    width: 100px;
+}
+#hello {
+    /* color: #f0f8ff; */
+    padding: 10px 20px;
+    border-width: 1px;
+    border-color:  black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;    
+    background-color: white;
+    width: 100px;
+}
+
+li a:hover {
+    background-color: cornsilk;
+    font-size: 20px;
+}

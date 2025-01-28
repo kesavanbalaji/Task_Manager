@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="{% static 'task_manager.css' %}">
+</head>
+<body>
+    <h1>Task Manager</h1>
+    <button id="hi"><a href="/add/">Add Task</a></button>
+    <form method="get" action="/filter/">
+        <select name="priority">
+            <option value="">All</option>
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+        </select>
+        <button id="hello" type="submit">Filter</button>
+    </form>
+    <ul>
+        {% for task in tasks %}
+            <li>
+                <strong>{{ task.title }}</strong> - {{ task.description }} - {{ task.priority }} - {{ task.status }}
+                <a href="/edit/{{ task.id }}/">Edit ⚙️</a>
+                <a href="/delete/{{ task.id }}/">Delete 🗑️</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
